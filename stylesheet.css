@@ -1,28 +1,41 @@
+1. Added a border-radius to the background to give it a softer look
+2. Added fall-back fonts incase browser doesnt have Arial
+3. Added a hover effect over my link and made it open in a new tab instead of changing current page
+4. Set base css padding/border/margin to 0 for better control over placements
+5. Shortened bodys background so the background box would fit better with content
+6. Changed divs to sections and gave each section a unique background-color with rounded edges to seperate content visually
+7. Gave my email and phonenumber tags to take advantage of the communication tools offered by HTML5
 
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
 
 .resumeText {
 
     background-color: rgb(245,245,245);
-    
+    border-radius: 15px;
     margin: 0 auto;
     width: 750px;
-    height: 1320px;
+    height: 1220px;
     
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 10px;
     	
     font-size: 16px;
-    font-family: Arial;
+    font-family: Arial, Genovia, 'Times-New-Roman', 'sans-serif';
 
 
 
 }
 
-a {
-	font-size: 18px;
-	font-weight: 10;
+a:hover {
+	background-color: Blue;
+	color: White;
 }
+
 .introText {
 	width: 600px;
 	font-size: 16px;
@@ -49,5 +62,37 @@ hr {
 .bodyCopy {
 	padding-left: 10px;
 	text-indent: 15px;
-	padding-top: 0px;
+	padding-top: 20px;
+}
+
+.workHistory {
+
+  margin: 20px 0 20px 0;
+  border-radius: 20px;
+  background-color: rgba(0,0,50,0.6);
+  padding: 10px;
+}
+
+.goals {
+
+  margin: 20px 0 20px 0;
+  border-radius: 20px;
+  background-color: rgba(0,100,50,0.6);
+  padding: 10px;
+}
+
+.internship {
+
+  margin: 20px 0 20px 0;
+  border-radius: 20px;
+  background-color: rgba(200,50,50,0.6);
+  padding: 10px;
+}
+
+.education {
+
+  margin: 20px 0 20px 0;
+  border-radius: 20px;
+  background-color: rgba(0,100,150,0.6);
+  padding: 10px;
 }
