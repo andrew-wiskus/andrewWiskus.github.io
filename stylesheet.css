@@ -1,10 +1,3 @@
-1. Added a border-radius to the background to give it a softer look
-2. Added fall-back fonts incase browser doesnt have Arial
-3. Added a hover effect over my link and made it open in a new tab instead of changing current page
-4. Set base css padding/border/margin to 0 for better control over placements
-5. Shortened bodys background so the background box would fit better with content
-6. Changed divs to sections and gave each section a unique background-color with rounded edges to seperate content visually
-7. Gave my email and phonenumber tags to take advantage of the communication tools offered by HTML5
 
 html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   padding: 0;
